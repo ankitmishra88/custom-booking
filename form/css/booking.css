@@ -1,0 +1,96 @@
+.thumbnail{
+max-width:75px;
+height:auto;
+}
+#custom_note{
+width:100%;
+text-align:center;
+}
+
+#cd_slot{
+padding:3px;
+
+}
+.wizard-v4-content{
+ margin: 0px;
+ width: 80%;
+}
+.form-register .steps {
+    margin-bottom: 10px;
+}
+.form-register .content .inner h3 {
+    text-align: center;
+}
+.single_add_to_cart_button{
+background-image: -webkit-linear-gradient( 0deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%);
+}
+.wizard-form .wizard-header{
+padding : 0px;
+}
+.form-register .steps li a .step-text{
+padding : 0px;
+}
+.form-register .content{
+   /* padding: 5px 55px 5px;*/
+}
+
+.inner .form-row .form-holder, .inner .form-row .form-holder select{
+remove - 
+    border-bottom
+}
+
+.actions ul{
+margin: 15px 0;
+}
+.form-holder {
+    margin-right: 20px;
+}
+.inner .form-row .form-holder{
+margin-bottom: 0px;
+}
+.dt,.form-register select{
+display:block;
+text-align:center;
+font-weight:bold;
+}
+.single-left{
+max-height:400px;
+}
+.inner .form-row .form-holder, .inner .form-row {
+border-bottom:none;
+}
+@media only screen and (max-width: 600px) {
+  .wizard-v4-content {
+ width: 100%;
+font-size:15px;
+  }
+#custom_note{
+width:100%;
+font-size:15px;
+
+}
+.form-register .content .inner h3{
+font-size:15px;
+}
+.form-register .content{
+margin:0;
+padding:0;
+width:100%;
+font-size:18px;
+}
+.wizard-form .wizard-header .heading{
+font-size:18px;
+}
+.cd_addons{
+max-height:200px;
+overflow-y:scroll;
+}
+.cd_addons img{
+display:inline;
+}
+.cd_addons h4, .cd_addons p4{
+text-align:center;
+font-size:18px;
+
+}
+}

@@ -1,0 +1,47 @@
+/* Mark input boxes that gets an error on validation: */
+#cd_form input.invalid {
+  background-color: #ffdddd;
+}
+.thumbnail{
+display:inline;
+max-width:100px;
+height:75px;
+
+}
+
+/* Hide all steps by default: */
+#cd_form .tab {
+  display: none;
+}
+
+single_add_to_cart_button{
+display:none;
+}
+.cd_addons{
+float:left;
+margin:5px;
+}
+#cd_form button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+.single_add_to_cart
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+.unstyled {
+    -webkit-appearance: none;
+}
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
